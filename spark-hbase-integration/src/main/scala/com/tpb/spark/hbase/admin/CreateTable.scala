@@ -1,9 +1,10 @@
-package com.theprogrammersbook.hbase.admin
+package com.tpb.spark.hbase.admin
 
 import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.hbase.client.ConnectionFactory
 
 object CreateTable extends App {
+
   //Creating HBaseConfiguration
   val configuration = HBaseConfiguration.create()
   // Create Connection
@@ -11,13 +12,13 @@ object CreateTable extends App {
   // Get Admin
   val admin = connection.getAdmin
   // Provide Table Name
-  val tableDescriptor = new HTableDescriptor(TableName.valueOf("EmployeeDetails"))
+  val tableDescriptor = new HTableDescriptor(TableName.valueOf("Workers"))
   // Add Column Family
-  tableDescriptor.addFamily(new HColumnDescriptor("personal details"))
-  tableDescriptor.addFamily(new HColumnDescriptor("professional details"))
+  tableDescriptor.addFamily(new HColumnDescriptor("personal data"))
+  tableDescriptor.addFamily(new HColumnDescriptor("professional data"))
   // Add the collum to Admin
 
   admin.createTable(tableDescriptor)
   // Check the success message
-  println("EmployeeDetails Table is created ...")
+  println("Worker Table is created ...")
 }

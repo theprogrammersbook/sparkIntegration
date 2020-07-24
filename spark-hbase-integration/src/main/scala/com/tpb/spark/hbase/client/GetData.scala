@@ -1,4 +1,4 @@
-package com.theprogrammersbook.hbase.client
+package com.tpb.spark.hbase.client
 
 import org.apache.hadoop.hbase.client.{ConnectionFactory, Get, Put}
 import org.apache.hadoop.hbase.util.Bytes

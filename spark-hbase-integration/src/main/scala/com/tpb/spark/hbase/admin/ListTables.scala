@@ -1,4 +1,4 @@
-package com.theprogrammersbook.hbase.admin
+package com.tpb.spark.hbase.admin
 
 import org.apache.hadoop.hbase.client.ConnectionFactory
 import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}

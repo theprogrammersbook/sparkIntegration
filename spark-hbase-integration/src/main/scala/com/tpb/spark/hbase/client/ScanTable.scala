@@ -1,4 +1,4 @@
-package com.theprogrammersbook.hbase.client
+package com.tpb.spark.hbase.client
 
 import org.apache.hadoop.hbase.client.{ConnectionFactory, Get, Scan}
 import org.apache.hadoop.hbase.util.Bytes
@@ -9,7 +9,7 @@ object ScanTable extends App {
   val configuration = HBaseConfiguration.create()
   val connection = ConnectionFactory.createConnection(configuration)
   //Get table from Connection
-  val table = connection.getTable(TableName.valueOf("emp"))
+  val table = connection.getTable(TableName.valueOf("Employee"))
   // Instantiating the Scan class
   val scan = new Scan()
   // Scanning the required columns

@@ -5,13 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>spark-hbase-integration</artifactId>
+    <artifactId>learnSpark</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
+    <inceptionYear>2008</inceptionYear>
+    <packaging>jar</packaging>
     <properties>
-        <scala.version>2.11.12</scala.version>
-        <spark.version>2.4.5</spark.version>
+        <scala.version>2.11.11</scala.version>
+        <spark.version>2.2.2</spark.version>
         <hbase.version>2.2.3</hbase.version>
     </properties>
 
@@ -39,18 +40,48 @@
             <version>${scala.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.specs</groupId>
+            <artifactId>specs</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.11</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.12</artifactId>
+            <artifactId>spark-core_2.11</artifactId>
             <version>${spark.version}</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.12</artifactId>
+            <artifactId>spark-sql_2.11</artifactId>
             <version>${spark.version}</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.databricks</groupId>
+            <artifactId>spark-xml_2.11</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-avro_2.11</artifactId>
+            <version>2.4.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.12</artifactId>
+            <version>2.4.4</version>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-avro_2.11</artifactId>
@@ -80,6 +111,19 @@
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-client</artifactId>
             <version>${hbase.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>spark-core_2.11-1.5.2.logging</groupId>
+            <artifactId>spark-core_2.11-1.5.2.logging</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${basedir}\src\lib\spark-core_2.11-1.5.2.logging.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-spark</artifactId>
+            <version>2.0.0-alpha4</version>
         </dependency>
 
 
