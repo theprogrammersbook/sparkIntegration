@@ -49,13 +49,7 @@ object HBaseBulkGetExample {
 
       //[(Array[Byte])]
       val rdd = sc.parallelize(Array(
-        Bytes.toBytes("1"),
-        Bytes.toBytes("2"),
-        Bytes.toBytes("3"),
-        Bytes.toBytes("4"),
-        Bytes.toBytes("5"),
-        Bytes.toBytes("6"),
-        Bytes.toBytes("7")))
+        Bytes.toBytes("1"),Bytes.toBytes("2")))
 
       val conf = HBaseConfiguration.create()
 

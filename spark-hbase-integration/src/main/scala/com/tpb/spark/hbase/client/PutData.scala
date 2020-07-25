@@ -9,9 +9,9 @@ object PutData extends App {
   val configuration = HBaseConfiguration.create()
   val connection = ConnectionFactory.createConnection(configuration)
   //Get table from Connection
-  val table = connection.getTable(TableName.valueOf("Employee"))
+  val table = connection.getTable(TableName.valueOf("Persons"))
   // Creating row
-  val put = new Put(Bytes.toBytes("1"))
+  val put = new Put(Bytes.toBytes("2"))
   // Adding data
   put.addColumn(Bytes.toBytes("personal data"), Bytes.toBytes("name"), Bytes.toBytes("nagaraju"))
   put.addColumn(Bytes.toBytes("personal data"), Bytes.toBytes("city"), Bytes.toBytes("Narpala"))
