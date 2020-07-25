@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00cd42d3-53fb-4170-8681-4fe9b505d3d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tpb/spark/hbase/admin/CreateTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tpb/spark/hbase/admin/CreateTable.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes.timestamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHubOtherPersons/spark-mysql-scala" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,21 +167,25 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="432" y="313" width="559" height="167" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/67.27.1299.741@67.27.1299.741" timestamp="1595646571325" />
-    <state width="1253" height="296" key="GridCell.Tab.0.bottom" timestamp="1595655134023">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595688401775">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="296" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1595655134023" />
-    <state width="1253" height="296" key="GridCell.Tab.0.center" timestamp="1595655134022">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1595688401775" />
+    <state width="1253" height="296" key="GridCell.Tab.0.bottom" timestamp="1595686440141">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="296" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1595655134022" />
-    <state width="1253" height="296" key="GridCell.Tab.0.left" timestamp="1595655134020">
+    <state width="1253" height="296" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1595686440141" />
+    <state width="1253" height="296" key="GridCell.Tab.0.center" timestamp="1595686440140">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="296" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1595655134020" />
-    <state width="1253" height="296" key="GridCell.Tab.0.right" timestamp="1595655134022">
+    <state width="1253" height="296" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1595686440140" />
+    <state width="1253" height="296" key="GridCell.Tab.0.left" timestamp="1595686440140">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="296" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1595655134022" />
+    <state width="1253" height="296" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1595686440140" />
+    <state width="1253" height="296" key="GridCell.Tab.0.right" timestamp="1595686440141">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="296" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1595686440141" />
   </component>
 </project>
