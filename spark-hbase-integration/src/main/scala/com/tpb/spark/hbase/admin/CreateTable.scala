@@ -12,7 +12,7 @@ object CreateTable extends App {
   // Get Admin
   val admin = connection.getAdmin
   // Provide Table Name
-  val tableDescriptor = new HTableDescriptor(TableName.valueOf("Persons"))
+  val tableDescriptor = new HTableDescriptor(TableName.valueOf("Persons2"))
   // Add Column Family
   tableDescriptor.addFamily(new HColumnDescriptor("personal data"))
   tableDescriptor.addFamily(new HColumnDescriptor("professional data"))

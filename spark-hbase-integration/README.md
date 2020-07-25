@@ -2,7 +2,7 @@ This application explains how to integratte spark with hbase
 
 I have installed the following softwares.
 
-#added these in  ~/.bashrc
+##Added these in  ~/.bashrc
 
 Java Environment Variables Setting
 
@@ -25,11 +25,11 @@ Spark Environment Variables
 export SPARK_HOME=/usr/local/softwares/spark-2.4.5
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 
-#Configuration
+##Configuration
 1. Have used default hadoop-pseudo distributed mode 
 2. Have used default hbase-pseudo distributed mode
 
-#How to add external jar file to maven build
+##How to add external jar file to maven build
   Step 1: Add the jar file to local maven repository
   
 `mvn install:install-file -Dfile=spark-core_2.11-1.5.2.logging.jar -DgroupId=com.local.spark.logging -DartifactId=spark-logging -Dversion=1.0.0 -Dpackaging=jar`
@@ -44,7 +44,7 @@ Step 2: Now add this dependency to pom.xml file
 
 
 
-#How to run the Application
+##How to run the Application
 The following is the get operation, before calling this operation, we have to insert some data using 
 `com.tpb.spark.hbase.admin.CreateTable
 com.tpb.spark.hbase.client.PutData
@@ -54,11 +54,15 @@ In any IDE Simply Run the App.
 
 `HBaseBulkGetExample`
 
-#How to create jar file 
+## we can create jar file with the help of any IDE , if IDE is not able to create jar file then we can use the following way
+
+##How to create jar file  from maven command line
 
 `mvn clean install -U`
 
 
-#How to submit his application to spark
+##How to submit his application to spark
 `spark-submit --class "com.tpb.spark.hbase.streaming.HBaseBulkGetExample" --master local[*] --packages org.apache.hbase:hbase-common:2.0.0-alpha4 spark-hbase-integration-1.0-SNAPSHOT.jar
 `
+
+Note: spark-submit is giving some problem while running jar file (not able to download hadoo-yarn jar file)
