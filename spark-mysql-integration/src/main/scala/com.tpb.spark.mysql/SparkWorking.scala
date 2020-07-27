@@ -1,3 +1,5 @@
+package com.tpb.spark.mysql
+
 import org.apache.spark.{SparkConf, SparkContext}
 
 object SparkWorking {

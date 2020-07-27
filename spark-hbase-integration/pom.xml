@@ -73,12 +73,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-avro_2.11</artifactId>
-            <version>2.4.4</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.local.spark.logging</groupId>
             <artifactId>spark-logging</artifactId>
             <version>1.0.0</version>
