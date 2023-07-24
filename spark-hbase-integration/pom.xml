@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
     <properties>
         <scala.version>2.11.11</scala.version>
-        <spark.version>2.2.2</spark.version>
+        <spark.version>2.4.8</spark.version>
         <hbase.version>2.2.3</hbase.version>
     </properties>
 
